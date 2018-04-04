@@ -1,0 +1,41 @@
+site_name: Test
+copyright: 'Copyright &copy; 2018 - 2017 Test'
+pages:
+ - Home: 'index.md'
+# Configuration
+theme:
+  name: 'material'
+  language: 'fr'
+  feature:
+    tabs: true
+  palette:
+    primary: 'red'
+    accent: 'red'
+  font:
+    text: 'Roboto'
+    code: 'Roboto Mono'
+
+markdown_extensions:
+  - meta
+  - admonition
+  - codehilite:
+      guess_lang: false
+  - toc:
+      permalink: true
+  - footnotes
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
